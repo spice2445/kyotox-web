@@ -1,0 +1,59 @@
+.marketWrapper {
+  /* height: 1000px; */
+}
+
+.title {
+  text-align: center;
+  font-family: Hakio-Free-Trial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 32px;
+  color: #000000;
+
+  padding-top: 4.5rem;
+  padding-bottom: 3.813rem;
+}
+
+.rectangleWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.rectangle {
+  text-align: center;
+  margin: 0;
+  /* margin: 10px; */
+  margin-right: 24px;
+  padding: 20px;
+  width: 226px;
+  height: 102px;
+  background: #ffffff;
+  border: 1px solid #e7ece8;
+  border-radius: 12px;
+}
+
+.rectangleEl {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.rectangleElTwo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+}
+
+.containerWrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}

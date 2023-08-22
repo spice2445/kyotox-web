@@ -1,0 +1,426 @@
+.containerWrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.containerBlock {
+  background-color: white;
+  width: 35.25rem;
+  height: 20.4375rem;
+  margin-right: 24px;
+  margin-top: 24px;
+  border-radius: 2%;
+  border-radius: .75rem;
+  box-sizing: border-box;
+}
+
+.containerHeader {
+  background: #000000;
+  color: white;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  border-radius: .75rem;
+  height: 73.008px;
+  padding-left: 24px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 140%;
+
+  text-transform: uppercase;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.containerBalance {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 16px;
+}
+
+.containerBlockBalance {
+  width: 164px;
+  height: 68px;
+  margin-right: .75rem;
+  background: #EFEFEF;
+  border-radius: .5625rem;
+}
+
+.containerBlockBalance:first-child {
+  margin-left: .75rem;
+}
+
+.elementBlockBalance {
+  margin: .3125rem .3125rem 0 0;
+  padding-left: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: .75rem;
+  line-height: 1.5rem;
+
+
+  color: #000000;
+
+}
+
+.elementBlockBalanceTwo {
+  margin: .3125rem .3125rem 0 0;
+  padding-left: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.ListTop {
+  display: grid;
+  grid-template-columns: 1.87fr 1.42fr 0.9fr 0.9fr 2.63fr;
+  margin: 1rem 1.5rem;
+  padding-bottom: .25rem;
+  font-weight: 500;
+  font-size: .75rem;
+  line-height: 1.5rem;
+  border-bottom: .0625rem solid #EFEFEF;
+}
+
+.ContainerCoinsWrapper {
+  display: grid;
+  grid-template-columns: 1.7fr 1.7fr 0.8fr 2fr 2.9fr;
+  margin: 1rem 1.5rem;
+  padding-bottom: .3125rem;
+  border-bottom: .0625rem solid #EFEFEF;
+}
+
+.ContainerCoinsWrapper:last-child {
+  /* border-bottom: .0625rem ; */
+}
+
+.CoinsIMGWrapper {
+  display: flex;
+  align-items: center;
+  align-self: self-start;
+}
+
+.CoinsText {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.balanceWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.balanceWrappersBlock {
+  text-align: center;
+}
+
+.CollateralBlock {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.firstCoins {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.secondCoins {
+  font-weight: 500;
+  font-size: .625rem;
+  line-height: 24px;
+  color: #96B1A4;
+}
+
+.ButtonWrapper {
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-around;
+}
+
+.WithdrawButton {
+  padding: .3438rem .5625rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 24px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  width: 66px;
+  height: 35px;
+  color: #FFFFFF;
+  background: #C51428;
+  border-radius: 6px;
+}
+.WithdrawButton:hover {
+  opacity: 1;
+  -webkit-animation: flash 1s;
+  animation: flash 1s;
+  }
+.SupplyButton {
+  width: 61px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 24px;
+  margin-left: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  width: 67px;
+  height: 35px;
+  color: #000000;
+}
+
+.ModalWrapper {
+  padding: 0px 1.25rem 0 1.25rem;
+}
+
+.modalCard {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.modalImg {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.modalTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 140%;
+
+  text-transform: uppercase;
+}
+
+.modalTitleTwo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  letter-spacing: 0.1em;
+
+  color: #96B1A4;
+}
+
+.modalTextFirstBlock {
+  /* display: flex; */
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: .375rem;
+}
+
+.modalImgAlert {
+  margin-left: 4px;
+  height: 11px;
+}
+
+.modalBlockOne {
+  height: 4.5625rem;
+  border: 1px solid #E7ECE9;
+  border-radius: 8px;
+  padding: 14px 12px 8px 12px;
+}
+
+.modalBlockWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalBlockNumberOne {
+  font-size: 1.75rem;
+  line-height: 1.5rem;
+  padding-bottom: .4375rem;
+  align-items: end;
+  align-content: center;
+}
+
+.modalImgWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.modalImgBlock {
+  padding-right: 4px;
+  height: 20px;
+}
+
+.modalBlockWrapperWallet {
+  display: flex;
+  justify-content: space-between;
+  color: #96B1A4;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.modalTextTwoBlock {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+
+  align-items: center;
+  padding-top: .75rem;
+  padding-bottom: 6px;
+}
+
+.modalBlockOverText {
+  display: inline-flex;
+  color: #C51428;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  text-align: right;
+  margin-left: 6px;
+}
+
+.modalInfinityBlock {
+  margin-right: 6px;
+  align-items: center;
+}
+
+.modalBlockTwo {
+  height: 76px;
+  background: #EFEFEF;
+  border-radius: 9px;
+  padding: 14px 12px 8px 12px;
+}
+
+.modalBlockTwoText {
+  font-size: .875rem;
+  line-height: 1.5rem;
+}
+
+.modalBlockTwoPro {
+  font-weight: 700;
+  font-size: .875rem;
+  line-height: 1.5rem;
+}
+
+.modalBlockEnabled {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24px;
+  /* or 240% */
+
+  align-items: center;
+  text-align: right;
+
+  color: #B19696;
+}
+
+.modalAttentionWrapper {
+  box-sizing: border-box;
+
+  height: 104px;
+
+  background: #DBE9DF;
+  border: 1px solid #96B1A4;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modalAttention {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+
+  padding-top: 18px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.modalGasBlock {
+  display: flex;
+  padding: .625rem 0rem .625rem 0;
+}
+
+.modalGasImg {
+  padding-right: .3125rem;
+}
+
+.modalAttentionTextTwo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.modalSupplyButton {
+  align-items: center;
+  width: 100%;
+  height: 3.0625rem;
+  background: #C51428;
+  border-radius: .5rem;
+  margin-bottom: 12px;
+  margin-top: 1rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.modalSupplyButton:hover {
+  opacity: 0.6;
+  -webkit-animation: both 1s;
+  animation: both 1s;
+}
+
+
+.modalCloseButton {
+  align-items: center;
+
+  width: 100%;
+  height: 3.0625rem;
+
+  border: .0625rem solid #000000;
+  border-radius: .5rem;
+
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.inputValueToken {
+  display: flex;
+  outline: none;
+  width: 230px;
+  height: 24px;
+}
+

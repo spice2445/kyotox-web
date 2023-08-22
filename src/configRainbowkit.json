@@ -1,0 +1,48 @@
+{
+  "bscTestnetChain": {
+    "id": 97,
+    "name": "BSC Testnet",
+    "network": "bsc_testnet",
+    "nativeCurrency": {
+      "decimals": 18,
+      "name": "BNB",
+      "symbol": "BNB"
+    },
+    "rpcUrls": {
+      "default": {
+        "http": ["https://data-seed-prebsc-1-s1.binance.org:8545/"]
+      },
+      "public": {
+        "http": ["https://data-seed-prebsc-1-s1.binance.org:8545/"]
+      }
+    },
+    "blockExplorers": {
+      "default": { "name": "BscScan", "url": "https://testnet.bscscan.com/" },
+      "etherscan": { "name": "BscScan", "url": "https://testnet.bscscan.com/" }
+    },
+    "testnet": true
+  },
+  "bscMainnetChain": {
+    "id": 56,
+    "name": "BSC Mainnet",
+    "network": "bsc_mainnet",
+    "nativeCurrency": {
+      "decimals": 18,
+      "name": "BNB",
+      "symbol": "BNB"
+    },
+    "rpcUrls": {
+      "default": {
+        "http": ["https://bsc-dataseed.binance.org/"]
+      },
+      "public": {
+        "http": ["https://bsc-dataseed.binance.org/"]
+      }
+    },
+    "blockExplorers": {
+      "default": { "name": "BscScan", "url": "https://bscscan.com" },
+      "etherscan": { "name": "BscScan", "url": "https://bscscan.com" }
+    },
+    "testnet": false
+  }
+}
